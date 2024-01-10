@@ -13,7 +13,7 @@ function Footer() {
     e.preventDefault();
 
     try {
-      await axios.post('https://api.telegram.org/bot6927199740:AAG9KVqWe3TA5nnZCAI4eOH59MGBr2ZeT7g/sendMessage', {
+      await axios.post('https://api.telegram.org/bot************/sendMessage', {
         chat_id: '-4008285961',
         text: `Name: ${name}\n\nnameMovie: ${nameMovie}\n\nyearMovie: ${yearMovie}\n\ncomment: ${comment}`,
       });

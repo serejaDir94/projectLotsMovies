@@ -1,0 +1,146 @@
+.SomeItem {
+    width: 1260px;
+    height: 1590px;
+    margin: 0 auto;
+    background-color: rgb(247, 233, 207);
+    padding: 0;
+    overflow: hidden;
+}
+
+.ItemPic {
+    width: 250px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    outline: 1px solid black;
+    box-shadow: 29px 27px 15px -17px rgba(0, 0, 0, 0.39);
+    overflow: hidden;
+    float: left;
+}
+
+.ItemInfo {
+    margin-top: 50px;
+    margin-left: 370px;
+}
+
+.El {
+    margin-top: 15px;
+}
+
+.SomeText {
+    font-size: 25px;
+    text-shadow: 2px 2px 2px rgb(202, 168, 104);
+}
+
+.Description {
+    opacity: 0.7;
+}
+
+.Line {
+    width: 90%;
+    height: 1px;
+    margin: 15px auto;
+    background-color: black;
+    opacity: 0.1;
+}
+
+.ClearLine {
+    clear: both;
+    margin-top: 40px;
+    width: 80%;
+}
+
+.ForStrong {
+    width: 800px;
+    margin-left: 120px;
+}
+
+.StrongText {
+    width: 100%;
+    text-align: center;
+    margin-left: 120px;
+    opacity: 0.6;
+}
+
+.ForIframe {
+    width:1152px;
+    margin: 20px auto;
+}
+
+.AboveRecomended{
+    padding-left: 120px;
+    margin-left: 120px;
+    opacity: 0.6;
+}
+
+.Recomended {
+    width: 1260px;
+    margin:0 auto;
+    background-color: rgb(247, 233, 207);
+        display: grid; 
+        grid-auto-columns: 4fr 1fr 1fr; 
+        grid-template-columns: 16% 16% 16% 16% 16%; 
+        grid-template-rows: 280px 280px 280px; 
+        justify-content: center;
+        gap: 50px 37px; 
+        grid-template-areas: 
+          ". . ."
+}
+
+.RecomendedItem {
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    outline: 1px solid black;
+    box-shadow: 29px 27px 15px -17px rgba(0, 0, 0, 0.39);
+    overflow: hidden;
+}
+
+.Recomended1:before{
+    content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(0, 0, 0, .3);
+}
+
+.Recomended1:hover {
+    cursor: pointer;
+    content: '';
+	width: 202px;
+	height: 300px;
+
+    .ButtonPlay { visibility: visible;}
+}
+
+.ButtonPlay {
+    visibility: hidden;
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background-color:rgba(0, 0, 0, .6);
+}
+
+.Namming {
+    color: rgb(247, 220, 174);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 2px rgb(109, 81, 34);
+}

@@ -1,0 +1,37 @@
+.Search{
+    width: 450px;
+    height: 95px;
+    vertical-align: top;
+    padding-top: 27px;
+    display: inline-block;
+    background-color: wheat;
+    position: relative;
+}
+
+.Search input{
+    width: 78%;
+    height: 35px;
+    padding-left: 15px;
+    float: left;
+}
+
+.Search div {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-image: url(../../public/iloupe.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    right: 34px;
+    top:32px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.Search div:hover{
+    width: 35px;
+    height: 35px;
+    top: 30px;
+    right: 30px;
+}

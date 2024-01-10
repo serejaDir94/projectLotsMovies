@@ -1,0 +1,71 @@
+.MoviesItem{
+    width: 1260px;
+    height: 1046px;
+    margin:0 auto;
+    background-color: rgb(247, 233, 207);
+        display: grid; 
+        grid-auto-columns: 4fr 1fr 1fr; 
+        grid-template-columns: 16% 16% 16% 16% 16%; 
+        grid-template-rows: 280px 280px 280px; 
+        justify-content: center;
+        gap: 50px 37px; 
+        grid-template-areas: 
+          ". . ."
+          ". . ."
+          ". . ."; 
+}
+
+.buttonMenu{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1260px;
+  background-color: wheat;
+  margin: 0 auto;
+}
+
+.clickButton{
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  margin-left: 15px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  background-color: wheat;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.clickButton:hover{
+  font-size: 30px;
+}
+
+.ForPagination {
+  width: 1260px;
+  height: 62px;
+  margin:0 auto;
+  background-color: rgb(247, 233, 207);
+}
+
+.ForBtn {
+  width: 180px;
+  margin: 0px auto;
+  margin-top: 40px;
+}
+
+.btn {
+  margin-left: 10px;
+}
+
+.OnlyMovies {
+  display: none;
+}
+
+.Serials {
+  display: none;
+}
+
+.Cartoons {
+  display: none;
+}

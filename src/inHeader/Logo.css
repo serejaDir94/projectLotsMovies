@@ -1,0 +1,9 @@
+.Logo{
+    width: 200px;
+    height: 95px;
+    background-image: url(../../public/pngegg2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    cursor: auto;
+}

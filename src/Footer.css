@@ -1,0 +1,128 @@
+footer {
+    width: 1260px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    background-color: wheat;
+    position: relative;
+  }
+  
+  .SomeText {
+    float: left;
+    margin-top: 50px;
+    text-align: center;
+    width: 30%;
+    font-size: 15px;
+    padding-top: 10px;
+    text-indent: 4px;
+  }
+  
+  .SomeText p {
+    margin: 4px;
+    font-size: 10px;
+  }
+  
+  .ForForm {
+    float: left;
+    width: 40%;
+    height: 50px;
+  }
+  
+  fieldset{
+    border-color: black;
+  }
+  
+  .ForForm form label input {
+    height: 25px;
+    margin-top: 7px;
+    margin-left: 5px;
+    border-radius: 6px;
+    border-color: rgb(247, 233, 207);
+    box-shadow: 4px 4px 8px 0px rgba(56, 54, 51, 0.7);
+    background-color: rgb(247, 233, 207);
+  }
+  
+  fieldset legend{
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .ForForm form button {
+    margin-top: 15px;
+    margin-left: 5px;
+    width: 100px;
+    height: 30px;
+    border-color: rgb(247, 233, 207);
+    box-shadow: 4px 4px 8px 0px rgba(56, 54, 51, 0.7);
+    background-color: rgb(229, 205, 160);
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .SocialNetwork {
+    float: left;
+    width: 30%;
+    height: 50px;
+    margin-top: 15px;
+  }
+  
+  .SocialNetworkContainer{
+    float: left;
+    height: 50px;
+    margin: 0px auto;
+    vertical-align: center;
+  }
+  
+  .IcoSocialNetwork{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    vertical-align: center;
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  .IcoSocialNetwork:hover {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .Vk {
+    background-image: url(../public/social_network/vk.png);
+  }
+  
+  .YouTube {
+    background-image: url(../public/social_network/youtube.png);
+  }
+  
+  .Telegram {
+    background-image: url(../public/social_network/telegram.png);
+  }
+  
+  .Discord {
+    background-image: url(../public/social_network/discord.png);
+  }
+  
+  .Gmail {
+    background-image: url(../public/social_network/gmail.png);
+  }
+  
+  .ClearLine {
+    clear: both;
+  }
+  
+  .Rights {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+  }

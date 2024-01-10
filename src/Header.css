@@ -1,0 +1,13 @@
+.Header{
+    width: 1260px;
+    height: 95px;
+    margin:0 auto;
+    margin-top: 40vh;
+    background-color: wheat;
+    padding: 0;
+    overflow: hidden;
+}
+
+.Header .elInHead{
+    display: inline-block;
+}

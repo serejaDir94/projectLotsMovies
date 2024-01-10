@@ -1,0 +1,16 @@
+.pagination {
+    width: 100%;
+    margin: 0 auto;
+    cursor: pointer;
+    background-color: rgb(77, 134, 184);
+}
+
+li {
+    list-style: none;
+    float: left;
+    width: 15px;
+}
+
+.PageLink {
+    color: rgb(0, 0, 0);
+}

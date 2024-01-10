@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background-image: url(../public/imagetwo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #193536;
+    background-position:top center;
+    font-family: 'Oswald', sans-serif;
+}
